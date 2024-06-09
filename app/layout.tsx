@@ -6,8 +6,6 @@ import Footer from '@/components/original/footer'
 import { ThemeProvider } from '@/context/theme-provider'
 import { site } from '@/data/data'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
   title: site.title,
   description: site.description
