@@ -1,4 +1,5 @@
 import Blog from '@/components/original/blog'
+import Github from '@/components/original/github'
 import CurrentDate from '@/components/original/current-date'
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Blog />
-        <Blog />
+        <Github />
         <Blog />
         <Blog />
       </div>
